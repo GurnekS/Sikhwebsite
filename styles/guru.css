@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(../images/amritsarskyline.JPG);
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+}
+
+p {
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 3px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card1 {
+    background-image: url("../images/nanak.jpg");
+    background-position: center;
+}
+
+.card2 {
+    color: white;
+    background-image: url("../images/angad.jpg");
+}
+
+.card3 {
+    color: white;
+    background-image: url("../images/amardas.jpg");
+}
+.card4 {
+    color: white;
+    background-image: url("../images/ramdas.jpg");
+    background-position: center;
+}
+.card5 {
+    color: white;
+    background-image: url("../images/arjan.jpg");
+    background-position: center;
+}
+.card6 {
+    color: white;
+    background-image: url("../images/hargobind.jpg");
+    background-position: right;
+}
+.card7 {
+    color: white;
+    background-image: url("../images/harrai.jpg");
+    background-position: right;
+}
+.card8 {
+    color: white;
+    background-image: url("../images/harkrishan.jpg");
+}
+.card9 {
+    color: white;
+    background-image: url("../images/bahadur.jpg");
+    background-position: center;
+}
+
+.card10 {
+    color: white;
+    background-image: url("../images/Gobind.jpg");
+}
+
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    text-decoration-color: white;
+}
+
