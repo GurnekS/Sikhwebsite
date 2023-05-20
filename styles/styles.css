@@ -87,14 +87,6 @@ p{
     text-shadow: 0 0 15px #000;
     font-size: 8px;
 }
-
-a {
-    text-decoration: none;
-}
-h3{
-    text-decoration-color: white;
-}
-
-#container{
-
+.card1 h3 {
+    color: white;
 }
