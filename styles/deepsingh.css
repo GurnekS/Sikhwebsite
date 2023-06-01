@@ -2,6 +2,26 @@ html, body {
     height: 100%;
 }
 
+
+body{
+    animation: transitionIn 0.75s;
+}
+
+
+@keyframes transitionIn {
+
+    from{
+        opacity: 0;
+        transform: translateY(-10);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+
 body {
     margin: 0;
     padding: 0;
