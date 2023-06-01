@@ -13,6 +13,10 @@ body {
     box-sizing: border-box;
 }
 
+#figuresCards{
+    animation: transitionIn 1.00s;
+}
+
 @keyframes transitionIn {
 
     from{
@@ -25,10 +29,6 @@ body {
         transform: rotateX(0);
     }
 
-}
-
-#content{
-    animation: transitionIn 1.00s;
 }
 .navbar {
     height: 12%;
