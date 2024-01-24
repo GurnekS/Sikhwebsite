@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(../images/amritsarskyline.JPG);
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+#content{
+
+    animation: transitionIn 0.75s;
+
+}
+@keyframes transitionIn {
+
+    from{
+        opacity: 0;
+        transform: translateY(-10);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+}
+
+p {
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Horizontally center align the content */
+    align-items: center; /* Vertically center align the content */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Center align the navigation links */
+}
+
+h1 {
+    text-align: center; /* Center align the title */
+
+}
+#angad{
+    height: auto;
+}
+
+
